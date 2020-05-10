@@ -19105,47 +19105,7 @@ GetValue1 = ConvertXml.getNodeValue("//*:serverUrl")
 com.eviware.soapui.SoapUI.globalProperties.setPropertyValue("serverUrl",GetValue1)
 
 
-</script></con:config></con:testStep><con:testStep type="request" name="merge" id="78889fcf-518b-43c6-b021-41d08cc28753"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>SoapBinding</con:interface><con:operation>merge</con:operation><con:request name="merge" id="593b19ea-e168-4d84-acc6-e9358b3a9263"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://login.salesforce.com/services/Soap/c/43.0/0DF900000004vPL</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:enterprise.soap.sforce.com">\r
-   <soapenv:Header>\r
-      <urn:EmailHeader>\r
-         <urn:triggerAutoResponseEmail>?</urn:triggerAutoResponseEmail>\r
-         <urn:triggerOtherEmail>?</urn:triggerOtherEmail>\r
-         <urn:triggerUserEmail>?</urn:triggerUserEmail>\r
-      </urn:EmailHeader>\r
-      <urn:PackageVersionHeader/>\r
-      <urn:DebuggingHeader>\r
-         <urn:debugLevel>?</urn:debugLevel>\r
-      </urn:DebuggingHeader>\r
-      <urn:LocaleOptions/>\r
-      <urn:DuplicateRuleHeader>\r
-         <urn:allowSave>?</urn:allowSave>\r
-         <urn:includeRecordDetails>?</urn:includeRecordDetails>\r
-         <urn:runAsCurrentUser>?</urn:runAsCurrentUser>\r
-      </urn:DuplicateRuleHeader>\r
-      <urn:StreamingEnabledHeader>\r
-         <urn:streamingEnabled>?</urn:streamingEnabled>\r
-      </urn:StreamingEnabledHeader>\r
-      <urn:DisableFeedTrackingHeader>\r
-         <urn:disableFeedTracking>?</urn:disableFeedTracking>\r
-      </urn:DisableFeedTrackingHeader>\r
-      <urn:AllowFieldTruncationHeader>\r
-         <urn:allowFieldTruncation>?</urn:allowFieldTruncation>\r
-      </urn:AllowFieldTruncationHeader>\r
-      <urn:MruHeader>\r
-         <urn:updateMru>?</urn:updateMru>\r
-      </urn:MruHeader>\r
-      <urn:AssignmentRuleHeader>\r
-         <urn:assignmentRuleId>?</urn:assignmentRuleId>\r
-         <urn:useDefaultRule>?</urn:useDefaultRule>\r
-      </urn:AssignmentRuleHeader>\r
-      <urn:SessionHeader>\r
-         <urn:sessionId>?</urn:sessionId>\r
-      </urn:SessionHeader>\r
-   </soapenv:Header>\r
-   <soapenv:Body>\r
-      <urn:merge/>\r
-   </soapenv:Body>\r
-</soapenv:Envelope>]]></con:request><con:assertion type="SOAP Response" id="1f562b39-8842-4ea3-b211-c2e5de6de786"/><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508"/><con:wsrmConfig version="1.2"/></con:request></con:config></con:testStep><con:properties><con:property><con:name>SessionID</con:name><con:value>00D2x000002PcYA!AQgAQEH5jhnzcsCpxchcg0N9AUVVhU9XqSOJfrgasnTaWQGZqlNtCF3W5uYPV_Wd84PEugJol6mFsEhVLijoTDbqtk8qfYcs</con:value></con:property></con:properties></con:testCase><con:testCase id="7173c3a7-05fe-48c6-9790-dbf5bb69d686" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_SF2" searchProperties="true"><con:settings/><con:testStep type="request" name="Login" id="097cbd55-ec90-4199-8d17-8cdc36ebf04e"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>SoapBinding</con:interface><con:operation>login</con:operation><con:request name="Login" id="1d0f8620-a757-47cc-83bc-d7761f4b2c53"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://login.salesforce.com/services/Soap/c/43.0/0DF900000004vPL</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:enterprise.soap.sforce.com">\r
+</script></con:config></con:testStep><con:properties><con:property><con:name>SessionID</con:name><con:value>00D2x000002PcYA!AQgAQEH5jhnzcsCpxchcg0N9AUVVhU9XqSOJfrgasnTaWQGZqlNtCF3W5uYPV_Wd84PEugJol6mFsEhVLijoTDbqtk8qfYcs</con:value></con:property></con:properties></con:testCase><con:testCase id="7173c3a7-05fe-48c6-9790-dbf5bb69d686" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TC_SF2" searchProperties="true"><con:settings/><con:testStep type="request" name="Login" id="097cbd55-ec90-4199-8d17-8cdc36ebf04e"><con:settings/><con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:interface>SoapBinding</con:interface><con:operation>login</con:operation><con:request name="Login" id="1d0f8620-a757-47cc-83bc-d7761f4b2c53"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://login.salesforce.com/services/Soap/c/43.0/0DF900000004vPL</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:enterprise.soap.sforce.com">\r
    <soapenv:Header>\r
       <urn:LoginScopeHeader>\r
       </urn:LoginScopeHeader>\r
